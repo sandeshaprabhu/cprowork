@@ -1,5 +1,5 @@
 #makefile for calender
-all: calender exec
+all: calender 
 
 calender: cal.o
 	gcc -o calender cal.o 
@@ -10,5 +10,3 @@ cal.o: cal.c
 clean:
 	del cal.o calender.exe
 #to execute the .exe file	
-exec:
-	calender.exe
