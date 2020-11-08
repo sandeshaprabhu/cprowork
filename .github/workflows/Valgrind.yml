@@ -21,4 +21,4 @@ jobs:
     - name: make test
       run: |
         chmod 777 cal.c
-        valgrind ./cal.c
+        valgrind --help
